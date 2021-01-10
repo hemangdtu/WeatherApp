@@ -67,20 +67,20 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  geolocator:
+  http:
     dependency: "direct main"
     description:
-      name: geolocator
+      name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.1.13"
-  geolocator_platform_interface:
+    version: "0.12.2"
+  http_parser:
     dependency: transitive
     description:
-      name: geolocator_platform_interface
+      name: http_parser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.8"
+    version: "3.1.4"
   matcher:
     dependency: transitive
     description:
@@ -102,13 +102,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0-nullsafety.1"
-  plugin_platform_interface:
+  pedantic:
     dependency: transitive
     description:
-      name: plugin_platform_interface
+      name: pedantic
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "1.9.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -172,4 +172,3 @@ packages:
     version: "2.1.0-nullsafety.3"
 sdks:
   dart: ">=2.10.0-110 <2.11.0"
-  flutter: ">=1.10.0"
